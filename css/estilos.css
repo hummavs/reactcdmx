@@ -1,0 +1,40 @@
+html{
+  font-size: 16px;
+}
+
+
+
+.bienvenidos{
+  background: url("../images/bgheader.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.encabezado{
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-light .navbar-brand {
+    color: #2d1a30;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-toggler{
+  padding: .5rem .75rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #2d1a30;
+
+}
+
+#menuprincipal{
+  clear: both;
+}
