@@ -8,43 +8,77 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
     </head>
 
   <body>
     <header class="encabezado">
-        <div class="container">
-          <nav class="navbar navbar-toggleable-md navbar-light">
-            <button class="navbar-toggler navbar-toggler-right float-lg-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">REACT/CDMX</a>
-            <div class="collapse navbar-collapse" id="menuprincipal">
-              <ul class="navbar-nav navbar-right mr-auto mt-2 mt-md-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Meetup <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item-2">
-                  <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-                </li>
-                <li class="nav-item-3">
-                  <a class="nav-link" href="#"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-              </ul>
-            </div>
-          </nav>
-        </div>
-    <header>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+        </nav>
+    </header>
     <main>
-    <section id="Calendario">
+      <section id="Calendario">
 
 
-    </section>
+      </section>
 
-    <section id="highlights1">
+      <section id="highlights1">
 
 
-    </section>
+      </section>
 
-    <section id="Contacto">
+      <section id="Contacto">
 
 
     </section>
@@ -52,26 +86,32 @@
   </main>
 
   <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <img src="http://placehold.it/80x80" alt="ReactCDMX">
+
+          <div class="social-icons">
+            <a href="#" target=_blank>
+              <i class="fa fa-github"></i>
+            </a>
+
+
+            <a href="#" target=_blank>
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .container
+  .row
+  xs - mobile
+  sm - tablet/phablet
+  md - tablet landscape netbook
+  lg - monitores normales
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery-3.2.1.min.js"></script>
