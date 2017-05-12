@@ -11,3 +11,51 @@
 .social-icons a:first-child {
   border-right: 1px solid black
 }
+
+.agenda-item {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,.3);
+  padding: 10px 0 0;
+  border-top: 4px solid #2d1a30;
+  /*
+  box-shadow:
+    horizontal
+    vertical
+    blur
+    spread
+    color
+  */
+}
+
+.agenda-item article > h1 {
+  //font-size: 85px;
+  font-size: 7em;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+/* Aplica solo a títulos inmediatos*/
+.agenda-item article > h1 small {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.agenda-item article > .btn {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #2d1a30;
+  padding: 15px;
+  border-radius: 0px 0px 4px 4px;
+  margin-top: 20px;
+  opacity: 1;
+  -webkit-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+.agenda-item article > .btn:hover {
+  opacity: .8;
+}
